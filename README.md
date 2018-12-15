@@ -76,3 +76,5 @@ bitsocketd.init({
   socket: { app: app }
 })
 ```
+
+IFWallet
