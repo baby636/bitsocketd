@@ -1,14 +1,32 @@
 {
-  "name": "bitsocketd",
-  "version": "0.1.1",
-  "description": "The message bus for bitcoin",
-  "main": "index.js",
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint *.js"
+  "_from": "bitsocketd@^0.1.20",
+  "_id": "bitsocketd@0.1.20",
+  "_inBundle": false,
+  "_integrity": "sha512-jJS1vQ+i+UxfDjA26iTzT2HF3ghMDBObtrUUBYCZ91R3jKCBTh3HpwhVbQ9M+zU0+unbDyih4wPWVh6zeGjoZg==",
+  "_location": "/bitsocketd",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "bitsocketd@^0.1.20",
+    "name": "bitsocketd",
+    "escapedName": "bitsocketd",
+    "rawSpec": "^0.1.20",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.20"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitsocketd/-/bitsocketd-0.1.20.tgz",
+  "_shasum": "0a19db76e0e3ec44c2213adf1c430787ff5f1730",
+  "_spec": "bitsocketd@^0.1.20",
+  "_where": "/var/www/bitsocket",
   "author": "",
-  "license": "ISC",
+  "bundleDependencies": false,
   "dependencies": {
+    "agenda": "^2.0.2",
     "bcode": "0.0.6",
     "bigjq": "0.0.7",
     "bitcore-lib-cash": "^0.18.1",
@@ -16,9 +34,20 @@
     "express": "^4.16.4",
     "ip": "^1.1.5",
     "mingo": "^2.2.4",
+    "mysql": "^2.16.0",
+    "p-queue": "^3.0.0",
     "zeromq": "^5.0.0"
   },
+  "deprecated": false,
+  "description": "The message bus for bitcoin",
   "devDependencies": {
     "eslint": "^5.7.0"
-  }
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bitsocketd",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "version": "0.1.20"
 }
