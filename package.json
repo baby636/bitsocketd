@@ -27,7 +27,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "agenda": "^2.0.2",
-    "bcode": "0.0.6",
+    "bcode": "0.0.7",
     "bigjq": "0.0.7",
     "bitcore-lib-cash": "^0.18.1",
     "cors": "^2.8.4",
