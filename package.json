@@ -41,7 +41,7 @@
   "deprecated": false,
   "description": "The message bus for bitcoin",
   "devDependencies": {
-    "eslint": "^5.7.0"
+    "eslint": "^7.0.0"
   },
   "license": "ISC",
   "main": "index.js",
